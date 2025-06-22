@@ -24,27 +24,21 @@ Visual Appeal: Utilize modern design trends, high-quality imagery, and subtle an
 
 This section documents the key design properties used throughout the application. Having a defined set of design tokens ensures visual consistency, easier maintenance, and better collaboration between design and development.
 
-### 📋 Color Palette
+### Color Palette
 
-| Name           | Hex Code   | Usage                        |
-|----------------|------------|-------------------------------|
-| Primary        | #2B6CB0    | Buttons, interactive elements |
-| Secondary      | #68D391    | Highlights, active states     |
-| Background     | #F7FAFC    | Page background               |
-| Text (Dark)    | #2D3748    | Headings, body text           |
-| Text (Light)   | #EDF2F7    | Light mode text on dark bg    |
-| Error/Alert    | #E53E3E    | Validation, error messages    |
+**Primary**: #FF5A5F
+**Secondary**: #008489
+**Background**: #FFFFFF
+**Text**: #222222
+**Secondary** Text: #717171
 
-### ✍️ Typography
+### Typography
 
-| Property        | Value                     | Usage                       |
-|------------------|---------------------------|------------------------------|
-| Font Family      | `'Inter', sans-serif`     | Primary UI text              |
-| Font Sizes       | `12px, 14px, 16px, 20px, 24px, 36px` | Body, captions, headings |
-| Font Weights     | `400 (Regular), 600 (Semi-bold), 700 (Bold)` | Emphasis and hierarchy |
-| Line Height      | `1.5, 1.75`               | Improves readability         |
+**Primary Font**: Circular, Medium (500), 16px
+**Headings**: Circular, Bold (700), 24px-32px
+**Secondary Text**: Circular, Book (400), 14px
 
-### 🧠 Why This Matters
+### Why This Matters
 
 Defining design properties like colors and typography early in the project helps:
 
@@ -54,3 +48,15 @@ Defining design properties like colors and typography early in the project helps
 - ✅ Improve **code readability** and maintainability
 
 These tokens are applied consistently in the CSS files and component styles across the frontend.
+
+## Project Roles and Responsibilities
+
+**Role & Responsibilities**
+**Project Manager** - Oversees timeline, coordinates team, manages deliverables
+**Frontend Developers** - Implements UI components, ensures responsive design
+**Backend Developers** - Builds APIs, manages database, implements business logic
+**Designers** - Creates mockups, maintains design system, ensures UX quality
+**QA/Testers** - Writes test cases, performs testing, reports bugs
+**DevOps Engineers** - Manages deployment, CI/CD pipeline, server infrastructure
+**Product Owner** - Defines requirements, prioritizes features, represents stakeholders
+**Scrum Master** - Facilitates agile processes, removes blockers, organizes meetings
